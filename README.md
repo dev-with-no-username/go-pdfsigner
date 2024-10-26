@@ -17,3 +17,5 @@ curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@FILENAME.pdf" h
 ```
 
 If the call is successful, the signed pdf file will be present in this project with the name "output.pdf". If one with this name already exists, it will be overwritten. Otherwise an error will be returned.
+
+If you try with the file `testfile12.pdf` it will work, while with the `pdftest.pdf` file it wont

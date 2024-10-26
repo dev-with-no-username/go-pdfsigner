@@ -1,1 +1,3 @@
 *.pdf
+!pdftest.pdf
+!testfile12.pdf
